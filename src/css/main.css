@@ -263,7 +263,8 @@ Navbar
     /*border-radius: var(--radius);*/
   }
   .page-link:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--clr-green-dark);
+    color: var(--clr-green-dark);
     /*background: var(--clr-primary-5);
     color: var(--clr-primary-10);*/
   }
