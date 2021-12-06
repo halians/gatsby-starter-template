@@ -44,7 +44,7 @@ Variables
   --fixed-width: 700px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -231,7 +231,7 @@ Navbar
 .twitter-icon {
   color: #00acee;
 }
-.dribble-icon {
+.instagram-icon {
   color: #ea4c89;
 }
 @media screen and (min-width: 800px) {
@@ -283,7 +283,7 @@ Navbar
 }
 /*
 ===============
-Sidebar 
+Sidebar
 ===============
 */
 .sidebar {
@@ -617,22 +617,14 @@ Testing Post and Components
 
 /*
 ===============
-Footer
+Index
 ===============
-*/
-.footer {
-  height: 7rem;
-  text-align: center;
-  background: var(--clr-black);
-  display: grid;
-  place-items: center;
-}
-.footer-icons {
-  display: flex;
-  justify-content: center;
-  line-height: 1;
-  margin-bottom: 0.5rem;
-}
+*/.footer-icons {
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
 .footer-icons a {
   font-size: 1.5rem;
   margin: 0 0.5rem;
@@ -643,10 +635,4 @@ Footer
 }
 .footer-icons li:hover {
   transform: translateY(-10%);
-}
-.footer p {
-  margin-bottom: 0;
-  color: var(--clr-white);
-  text-transform: uppercase;
-  letter-spacing: var(--spacing);
 }

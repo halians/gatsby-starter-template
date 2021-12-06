@@ -1,14 +1,15 @@
 import React from "react"
-import SocialLinks from "../constants/socialLinks"
+import SocialLinks from "../../constants/socialLinks"
+import FooterWrapper from "./style"
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <FooterWrapper>
       <div>
         <SocialLinks styleClass="footer-icons" />
         <p>&copy;{new Date().getFullYear()} [APP-NAME]. All rights reserved.</p>
       </div>
-    </footer>
+    </FooterWrapper>
   )
 }
 
